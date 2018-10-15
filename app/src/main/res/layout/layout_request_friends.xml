@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtRequestFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Friend"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/txtChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
